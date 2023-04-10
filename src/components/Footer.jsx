@@ -27,9 +27,9 @@ const Footer = () => {
           <FaDribbbleSquare size={30} />
         </div>
       </div>
-      <div className="lg:col-span-2 flex justify-between mt-6">
+      <div className="lg:col-span-2 flex sm:flex-row flex-col gap-8 justify-between mt-6">
         <div>
-          <h6 className="font-medium text-gray-400">Solutions</h6>
+          <h6 className="font-bold text-gray-400">Solutions</h6>
           <ul>
             <li className="py-2 text-sm">Analytics</li>
             <li className="py-2 text-sm">Marketing</li>
@@ -38,7 +38,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-gray-400">Support</h6>
+          <h6 className="font-bold text-gray-400">Support</h6>
           <ul>
             <li className="py-2 text-sm">Pricing</li>
             <li className="py-2 text-sm">Documentation</li>
@@ -47,7 +47,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-gray-400">Company</h6>
+          <h6 className="font-bold text-gray-400">Company</h6>
           <ul>
             <li className="py-2 text-sm">About</li>
             <li className="py-2 text-sm">Blog</li>
@@ -57,7 +57,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-gray-400">Legal</h6>
+          <h6 className="font-bold text-gray-400">Legal</h6>
           <ul>
             <li className="py-2 text-sm">Claim</li>
             <li className="py-2 text-sm">Policy</li>
