@@ -10,7 +10,7 @@ const Hero = () => {
           GROWING WITH DATA ANALYTICS
         </p>
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
-          Grow with data.
+          Flow with data.
         </h1>
         <div className="flex justify-center items-center">
           <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">
