@@ -17,11 +17,14 @@ const Newsletter = () => {
               type="email"
               placeholder="Enter Your Email"
             />
-            <button className="bg-[#00df9a] w-[200px] rounded-md font-medium ml-4 my-6 py-3 px-6 text-black">
+            <button className="bg-gradient-to-r from-cyan-500 to-blue-500 w-[200px] rounded-md font-medium ml-4 my-6 py-3 px-6 text-black">
               Notify Me
             </button>
           </div>
-        <p>We care about the protection of your data. Read our <span className="text-[#00df9a]">privacy policy.</span></p>
+          <p>
+            We care about the protection of your data. Read our{" "}
+            <span className="text-blue-500">privacy policy.</span>
+          </p>
         </div>
       </div>
     </div>
