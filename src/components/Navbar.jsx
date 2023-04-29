@@ -27,7 +27,7 @@ const Navbar = () => {
             : "fixed left-[-100%]"
         }
       >
-        <h1 className="w-full text-3xl font-bold text-[#00df9a] m-8">
+        <h1 className="w-full text-3xl font-bold text-blue-500 m-8">
           Data Finance.
         </h1>
         <ul className="uppercase p-4">
